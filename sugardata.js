@@ -7,7 +7,7 @@ const connection = new Sequelize("production", "root", "root");
 
 const Sugardata = connection.define("sugardata", {
 
-  d_ate            : Sequelize.DATE,
+    d_ate            : Sequelize.DATE,
     belunch          : Sequelize.INTEGER,
     oes              : Sequelize.INTEGER,
     afbkfst          : Sequelize.INTEGER,
